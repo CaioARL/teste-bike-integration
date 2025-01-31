@@ -3,7 +3,7 @@ from enum import Enum
 class ServicosConfiguracao(Enum):
     CONFIGS = '/v1/configuracao-api-externa/list'
     CONFIG = '/v1/configuracao-api-externa/get'
-    CONFIGS_BY_NAME = '/configuracao-api-externa/getByNome'
+    CONFIGS_BY_NAME = '/v1/configuracao-api-externa/getByNome'
     
 class ServicosEmail(Enum):
     ANY_MESSAGE = '/v1/email/sendAnyMessage'
